@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:cabal-check-test"
+
+    - path: "./internal-lib"
+      component: "cabal-check-test:lib:internal-lib"
+
+    - path: "./test/unit"
+      component: "cabal-check-test:test:unit"
